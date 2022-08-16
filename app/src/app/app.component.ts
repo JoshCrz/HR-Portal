@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  authed: boolean = false;
+
+  ngOnInit() {
+
+    //if user is not authed - ask for login
+
+    if (this.authed) {
+
+    }
+
+
+  }
+
 }
