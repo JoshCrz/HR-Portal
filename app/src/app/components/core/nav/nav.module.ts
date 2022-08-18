@@ -3,11 +3,14 @@ import { CommonModule } from '@angular/common';
 import { NavComponent } from './nav.component';
 import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 @NgModule({
   declarations: [NavComponent],
   imports: [
     CommonModule,
-    NgbNavModule
+    NgbNavModule,
+    FontAwesomeModule
   ],
   exports: [NavComponent]
 })
