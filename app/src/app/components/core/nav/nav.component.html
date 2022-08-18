@@ -1,26 +1,36 @@
 <div class="row no-gutters">
-  <div class="col-12 bg-dark text-white vh-100">
+  <div class="col-12 bg-dark text-white">
     <div class="text-center p-5 bg-danger">
       <h1 class="h3">HR Portal</h1>
     </div>
 
     <!-- nav items -->
-    <div class="d-flex flex-column mt-5">
-      <div class="py-5 p-2 text-center">
+    <div class="d-flex flex-column mt-3">
+      <div class="py-3 text-center">
         <fa-icon class="display-4 mb-4" [icon]="faUser"></fa-icon>
-        <p class="h4">Me</p>
+        <p class="my-3">Me</p>
       </div>
 
-      <div class="py-5 p-2 text-center">
-        <span>Holidays</span>
+      <div class="py-3 text-center" routerLink="absences">
+        <fa-icon class="display-4 mb-4" [icon]="faUser"></fa-icon>
+        <p class="my-3">Absences</p>
       </div>
 
-      <div class="py-5 p-2 text-center">
-        <span>Employees</span>
+      <div class="py-3 text-center">
+        <fa-icon class="display-4 mb-4" [icon]="faAddressBook"></fa-icon>
+        <p class="my-3">Employees</p>
+      </div>
+
+      <div class="py-3 text-center">
+        <fa-icon class="display-4 mb-4" [icon]="faCog"></fa-icon>
+        <p class="my-3">Settings</p>
+      </div>
+
+      <div class="py-4 w-100 text-center text-dark bg-warning align-self-end">
+        <p class="mt-3">Logout</p>
       </div>
 
     </div>
-
   </div>
 </div>
 
